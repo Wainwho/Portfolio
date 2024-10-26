@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body {
+    background-color: #00b6ed;
+}
+
+.logo {
+    width: 150px;
+}
+
+header ul {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+header ul li button {
+    color: #FFF;
+    background-color: #00b6ed;
+    width: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 5px #005baf;
+
+    transition: all 200ms ease;
+}
+
+header ul li button:hover {
+    padding-top: 50px;
+}
+
+.countainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.aboutmebody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Firsthalf {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Secondhalf {
+    width: 60%;
+}
+
+.Firsthalf h1 {
+    font-family: 'Josefin Sans';
+    font-size: 55px;
+    color: #ccf3ff;
+}
+
+.Firsthalf p {
+    font-family: 'Jost';
+    font-size: 25px;
+    color: #FFF;
+}
+
+.Firsthalf span {
+    color: #7be0ff;
+}
+
+.Firsboxbg {
+    background-color: #1d71c0;
+
+    border-bottom-left-radius: 350px;
+    box-shadow: 0px 15px #005baf;
+}
+
+.Secondboxbg {
+    background-color: #00b6ed;
+    border-bottom-left-radius: 350px;
+    padding-bottom: 200px;
+
+    box-shadow: 0px 15px #4289cc;
+}
+
+.Secondbox {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    gap: 50px;
+}
+
+.buttons a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 620px;
+    padding: 50px;
+
+    background-color: #FFF;
+    border: 2px solid #dadada;
+    border-radius: 20px;
+
+    transition: all 200ms ease;
+}
+
+.buttons a:hover {
+    border: 5px solid #dadada;
+    scale: 1.1;
+}
+
+.buttons a h1 {
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+    margin: 0 auto;
+    color: #111;
+}
+
+.buttons a p {
+    font-family: 'Josefin Sans';
+    font-size: 17px;
+    color: #797979;
+}
+
+.tags {
+    color: #111;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.tags h2 {
+    padding: 5px;
+    border: 3px solid #ff9100;
+    border-radius: 99999px;
+    width: 100px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.tags h3 {
+    padding: 5px;
+    border: 3px solid #008cff;
+    border-radius: 99999px;
+    width: 100px;
+    text-align: center;
+}
+
+.tags h4 {
+    padding: 5px;
+    border: 3px solid #ffee00;
+    border-radius: 99999px;
+    width: 100px;
+    text-align: center;
+}
+
+.Workstxt {
+    font-family: 'Josefin Sans';
+    font-size: 55px;
+    color: #ccf3ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.Workstxt hr {
+    height: 20px;
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    background-color: #ccf3ff;
+}
+
+.firsthr {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Firsboxbg hr {
+    height: 15px;
+    width: 80%;
+    border-radius: 10px;
+
+    background: #7be0ff;
+}
+
+.Thirdbg {
+    background-color: #9fe9ff;
+    padding-bottom: 200px;
+    border-bottom: 100px solid #00489b;
+}
+
+.Contactsbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 50px auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.FinalLogo {
+    width: 300px;
+}
+
+.ContactsInfo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ContactsInfo li a {
+    background-color: #7be0ff;
+    border-radius: 10px;
+    color: #0f2030;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 500px;
+
+    font-family: 'Jost';
+    font-size: 20px;
+
+    transition: all 200ms ease;
+}
+
+.ContactsInfo li a img {
+    width: 50px;
+}
+
+.ContactsInfo li a:hover {
+    scale: 1.2;
+    color: #FFF;
+    background-color: #005baf;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.Contactstxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    font-family: 'Josefin Sans';
+    font-size: 45px;
+    color: #00539c;
+
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactsLine {
+    height: 15px;
+    width: 70%;
+    background-color: #00539c;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
+
+@media (width < 600px) {
+    .body {
+        background-color: #00b6ed;
+    }
+    
+    .logo {
+        width: 150px;
+    }
+    
+    header ul {
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 170px;
+    }
+
+    header ul li {
+        width: 170px;
+    }
+    
+    nav {
+        display: flex;
+        width: 100%;
+    }
+    
+    header ul li button {
+        color: #FFF;
+        background-color: #00b6ed;
+        width: 170px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        border-bottom-left-radius: 20px;
+        box-shadow: 0px 5px #005baf;
+    
+        transition: all 200ms ease;
+    }
+    
+    header ul li button:hover {
+        padding-top: 20px;
+        padding-right: 50px;
+        width: 190px;
+        margin-left: -20px;
+    }
+    
+    .countainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .aboutmebody {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Firsthalf {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        text-align: center  ;
+    }
+    
+    .Secondhalf {
+        width: 100%;
+    }
+    
+    .Firsthalf h1 {
+        font-family: 'Josefin Sans';
+        font-size: 55px;
+        color: #ccf3ff;
+    }
+    
+    .Firsthalf p {
+        font-family: 'Jost';
+        font-size: 25px;
+        color: #FFF;
+    }
+    
+    .Firsthalf span {
+        color: #7be0ff;
+    }
+    
+    .Firsboxbg {
+        background-color: #1d71c0;
+        height: 1000px;
+    
+        border-bottom-left-radius: 150px;
+        box-shadow: 0px 15px #005baf;
+    }
+    
+    .Secondboxbg {
+        background-color: #00b6ed;
+        border-bottom-left-radius: 150px;
+        padding-bottom: 200px;
+    
+        box-shadow: 0px 15px #4289cc;
+    }
+    
+    .Secondbox {
+        margin-top: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        gap: 50px;
+    }
+    
+    .buttons a{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 300px;
+        padding: 50px;
+    
+        background-color: #FFF;
+        border: 2px solid #dadada;
+        border-radius: 10px;
+    
+        transition: all 200ms ease;
+    }
+    
+    .buttons a:hover {
+        border: 5px solid #dadada;
+        scale: 1.1;
+    }
+    
+    .buttons a h1 {
+        font-family: 'Josefin Sans';
+        font-size: 30px;
+        margin: 0 auto;
+        color: #111;
+    }
+    
+    .buttons a p {
+        font-family: 'Josefin Sans';
+        font-size: 17px;
+        color: #797979;
+    }
+    
+    .tags {
+        color: #111;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    
+    .tags h2 {
+        padding: 3px;
+        border: 3px solid #ff9100;
+        border-radius: 99999px;
+        width: 100px;
+        font-size: 17px;
+        text-align: center;
+    }
+    
+    .tags h3 {
+        padding: 3px;
+        border: 3px solid #008cff;
+        border-radius: 99999px;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .tags h4 {
+        padding: 3px;
+        border: 3px solid #ffee00;
+        border-radius: 99999px;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .Workstxt {
+        font-family: 'Josefin Sans';
+        font-size: 55px;
+        color: #ccf3ff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        margin-bottom: 100px;
+    }
+    
+    .Workstxt hr {
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .firsthr {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .Firsboxbg hr {
+        height: 15px;
+        width: 80%;
+        border-radius: 10px;
+    
+        background: #7be0ff;
+    }
+    
+    .Thirdbg {
+        background-color: #9fe9ff;
+        padding-bottom: 200px;
+        border-bottom: 100px solid #00489b;
+    }
+    
+    .Contactsbox {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 50px auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    
+    .FinalLogo {
+        width: 300px;
+    }
+    
+    .ContactsInfo ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .ContactsInfo li a {
+        background-color: #7be0ff;
+        border-radius: 10px;
+        color: #0f2030;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 300px;
+    
+        font-family: 'Jost';
+        font-size: 20px;
+    
+        transition: all 200ms ease;
+    }
+    
+    .ContactsInfo li a img {
+        width: 50px;
+    }
+    
+    .ContactsInfo li a:hover {
+        scale: 1.2;
+        color: #FFF;
+        background-color: #005baf;
+        border-radius: 10px;
+        width: 300px;
+    }
+    
+    .Contactstxt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    
+        font-family: 'Josefin Sans';
+        font-size: 45px;
+        color: #00539c;
+    
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ContactsLine {
+        position: absolute;
+        visibility: hidden;
+    }
+}
